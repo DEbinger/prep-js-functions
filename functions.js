@@ -11,7 +11,9 @@
  *  variable names you will create as they will become input to _other_
  *  functions.
  */
-
+//declare 2 variables and assign then random num:
+var a = 999;
+var b = 888;
 
 /**
  *  #2
@@ -20,7 +22,6 @@
  *  This function returns the result of adding `a` and `b` together.
  *  Store this value in a variable named `sum`.
  */
-
 
 /**
  *  #3
