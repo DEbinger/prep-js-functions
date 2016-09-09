@@ -37,7 +37,13 @@ console.log(sum);
  *  This function returns the result of subtracting `b` from `a`.
  *  Store this value in a variable named `difference`
  */
+function subtract(red,blue) {
+	return red - blue;//body...
+}
+subtract(a,b);
 
+var difference = subtract(a,b)
+console.log(difference)
 
 /**
  *  #4
