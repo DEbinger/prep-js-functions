@@ -69,7 +69,10 @@ console.log(product)
  *  "My football team lost X times this week", where `X` is the
  *  value stored in `difference`.
  */
-
+function checkDifference(dolphins,cowboys){
+	return "My football team lost "+difference+ " times this week";
+}
+console.log(checkDifference(difference))
 
 /**
  *  #6
