@@ -52,7 +52,13 @@ console.log(difference)
  *  This function returns the result of multiplying `b` by `a`.
  *  Store this value in a variable named `product`
  */
+function multiply(red,blue) {
+	return red * blue;//body...
+}
+multiply(a,b);
 
+var product = multiply(a,b)
+console.log(product)
 
 /**
  *  #5
