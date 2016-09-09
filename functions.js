@@ -22,7 +22,14 @@ var b = 888;
  *  This function returns the result of adding `a` and `b` together.
  *  Store this value in a variable named `sum`.
  */
+function add(apples,oranges) {
+	return apples + oranges;
+}
 
+add(a,b);
+
+var sum = add(a,b);
+console.log(sum);
 /**
  *  #3
  *  Function - subtract
