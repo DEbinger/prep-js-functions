@@ -83,8 +83,10 @@ console.log(checkDifference(difference))
  *  "I CAN ADDZ X NUMBERS"  where `X` is the value
  *  stored in the variable `sum`.
  */
-
-
+function checkSum(X) {
+	return "I CAN ADDZ " + X + " NUMBERS";
+}
+console.log(checkSum(sum));
 /**
  *  #7
  *  Function - checkProduct
@@ -93,8 +95,14 @@ console.log(checkDifference(difference))
  *  multiplies it by the number stored at `difference` and
  *  then prints the result to the console.
  */
+function checkProduct(product,difference) {
+	return product * difference;
+}
+multiply(product,difference)
 
+var checkProduct = product*difference;
 
+console.log((checkProduct))
 /**
  *  #8
  *  Function - addThenSubtract
